@@ -1,0 +1,266 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline", 
+      "location": "features/web_login.feature:21", 
+      "name": "Efetuar Login com sucesso -- @1.1 login", 
+      "status": "failed", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features/web_login.feature:5", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_home_step.py:9"
+          }, 
+          "name": "Eu me preparo para acesso a p\u00e1gina home pela primeira vez", 
+          "result": {
+            "duration": 3.363530158996582, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:6", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_home_step.py:14"
+          }, 
+          "name": "Eu estou na p\u00e1gina home", 
+          "result": {
+            "duration": 3.014224052429199, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:7", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_home_step.py:18"
+          }, 
+          "name": "Eu clico em login", 
+          "result": {
+            "duration": 1.4410159587860107, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Given", 
+          "location": "features/web_login.feature:8", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:9"
+          }, 
+          "name": "Eu me preparo para acesso a p\u00e1gina de autentication", 
+          "result": {
+            "duration": 0.0012099742889404297, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:9", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:18"
+          }, 
+          "name": "Eu estou na p\u00e1gina autentication", 
+          "result": {
+            "duration": 0.04942512512207031, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:10", 
+          "match": {
+            "arguments": [
+              {
+                "name": "email", 
+                "value": "renatojoas@emails.com"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:22"
+          }, 
+          "name": "Eu informo no campo Email: renatojoas@emails.com", 
+          "result": {
+            "duration": 0.3221728801727295, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:11", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:26"
+          }, 
+          "name": "Eu inicio a criacao da conta", 
+          "result": {
+            "duration": 0.11159992218017578, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:12", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:30"
+          }, 
+          "name": "Eu seleciono o genero Masculino", 
+          "result": {
+            "duration": 4.081146955490112, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:13", 
+          "match": {
+            "arguments": [
+              {
+                "name": "nome", 
+                "value": "Renato"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:34"
+          }, 
+          "name": "Eu insiro no campo Nome: Renato", 
+          "result": {
+            "duration": 0.16662979125976562, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:14", 
+          "match": {
+            "arguments": [
+              {
+                "name": "sobrenome", 
+                "value": "Araujo"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:38"
+          }, 
+          "name": "Eu insiro no campo Sobrenome: Araujo", 
+          "result": {
+            "duration": 0.16824793815612793, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:15", 
+          "match": {
+            "arguments": [
+              {
+                "name": "email", 
+                "value": "renatojoas@emails.com"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:42"
+          }, 
+          "name": "Eu valido no campo Email: renatojoas@emails.com", 
+          "result": {
+            "duration": 0.07112693786621094, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:16", 
+          "match": {
+            "arguments": [
+              {
+                "name": "password", 
+                "value": "oipopo"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:46"
+          }, 
+          "name": "Eu insiro no campo Password: oipopo", 
+          "result": {
+            "duration": 0.151871919631958, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_login.feature:17", 
+          "match": {
+            "arguments": [
+              {
+                "name": "dia", 
+                "value": "6"
+              }, 
+              {
+                "name": "mes", 
+                "value": "September"
+              }, 
+              {
+                "name": "ano", 
+                "value": "1986"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:50"
+          }, 
+          "name": "Eu insiro nas datas o DD/MM/AA: 6 / September / 1986", 
+          "result": {
+            "duration": 47.103708028793335, 
+            "error_message": [
+              "Traceback (most recent call last):", 
+              "  File \"/Library/Python/2.7/site-packages/behave/model.py\", line 1329, in run", 
+              "    match.run(runner.context)", 
+              "  File \"/Library/Python/2.7/site-packages/behave/matchers.py\", line 98, in run", 
+              "    self.func(context, *args, **kwargs)", 
+              "  File \"features/steps/web_autentication_step.py\", line 52, in step_impl", 
+              "    context.webAutentication_page.defineDataNasc(dia, mes, ano)", 
+              "  File \"/Users/renato/Documents/mesaUrbFy/features/pages/web_autentication_page.py\", line 67, in defineDataNasc", 
+              "    self.write(self.cmbBornDay, bornDay)", 
+              "  File \"/Users/renato/Documents/mesaUrbFy/features/pages/base_page.py\", line 110, in write", 
+              "    elements = self.find(locator)", 
+              "  File \"/Users/renato/Documents/mesaUrbFy/features/pages/base_page.py\", line 30, in find", 
+              "    element = self.wait_for(EC.visibility_of_element_located(locator))", 
+              "  File \"/Users/renato/Documents/mesaUrbFy/features/pages/base_page.py\", line 37, in wait_for", 
+              "    return WebDriverWait(self.driver, seconds).until(condition)", 
+              "  File \"/Library/Python/2.7/site-packages/selenium/webdriver/support/wait.py\", line 80, in until", 
+              "    raise TimeoutException(message, screen, stacktrace)", 
+              "selenium.common.exceptions.TimeoutException: Message: ", 
+              ""
+            ], 
+            "status": "failed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [
+        "runLoginDone"
+      ], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "features/web_login.feature:2", 
+  "name": "Teste na funcionalidade de login", 
+  "status": "failed", 
+  "tags": [
+    "runLogin"
+  ]
+}
+]
