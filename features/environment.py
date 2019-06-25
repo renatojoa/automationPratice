@@ -19,5 +19,4 @@ def before_scenario(context, scenario):
     context.driver.maximize_window()
 
 def after_scenario(context, scenario):
-    print('Acabou')
     context.driver.quit()

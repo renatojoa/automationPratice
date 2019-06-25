@@ -58,10 +58,19 @@ class BasePage:
         self.driver.execute_script('document.getElementsByID("' + id + '")[' + index + '].innerHTML = "' + text + '";')
 
     def select_in_combo_visible_text(self, locator, value):
-        Select(self.wait_for(EC.visibility_of_element_located(locator))).select_by_visible_text(value)
+        Select(self.wait_for(EC.visibility_of_element_visible(locator))).select_by_value(value)
 
-    def select_in_combo_by_value(self, locator, value):
-        Select(self.wait_for(EC.visibility_of_element_located(locator))).select_by_value(value)
+    def select_in_combo_by_index(self, locator, value):
+        element = Select(self.driver.find_element_by_id(locator[1]))
+        element.select_by_index(value)
+
+    def select_in_combo_by_value2(self,locator, value):
+        element = Select(self.driver.find_element_by_id(locator[1]))
+        element.select_by_value(value)
+
+    def select_in_combo_by_text(self,locator, value):
+        element = Select(self.driver.find_element_by_id(locator[1]))
+        element.select_by_visible_text(value)
 
     def select_in_combo_visible_by_index(self, locator, value):
         Select(self.wait_for(EC.visibility_of_element_located(locator))).select_by_index(value)
@@ -105,11 +114,4 @@ class BasePage:
 
     def switch_tab(self, index):
         self.driver.switch_to_window(self.driver.window_handles[index])
-
-    def write(self, locator, value):
-        elements = self.find(locator)
-        for element in elements:
-            select = Select(locator.find_element_by_name(value))
-            select.select_by_index(element)
-
 

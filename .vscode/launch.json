@@ -9,8 +9,16 @@
             "type": "python",
             "request": "launch",
             "console": "integratedTerminal",
-            "cwd": "C:\\Users\\Renato\\Documents\\urbfy",
+            "cwd": "/Users/renato/Documents/automationPratice",
             "args": ["-m", "behave", "--no-capture", "--no-skipped", "--tags=@runLogin"]
+        },
+        {
+            "name": "Register",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "cwd": "/Users/renato/Documents/automationPratice",
+            "args": ["-m", "behave", "--no-capture", "--no-skipped", "--tags=@runNewAccount"]
         }
     ]
 }
