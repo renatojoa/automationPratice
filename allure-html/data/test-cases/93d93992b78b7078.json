@@ -1,0 +1,180 @@
+{
+  "uid" : "93d93992b78b7078",
+  "name" : "Efetuar Login com sucesso -- @1.1 login",
+  "historyId" : "4cffd38326f9edea9e81bd36c9696bff",
+  "time" : {
+    "start" : 1561870872124,
+    "stop" : 1561870890064,
+    "duration" : 17940
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given Eu me preparo para acesso a página home pela primeira vez",
+      "time" : {
+        "start" : 1561870874519,
+        "stop" : 1561870878381,
+        "duration" : 3862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu estou na página home",
+      "time" : {
+        "start" : 1561870878382,
+        "stop" : 1561870881395,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu clico em login",
+      "time" : {
+        "start" : 1561870881395,
+        "stop" : 1561870882791,
+        "duration" : 1396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given Eu me preparo para acesso a página de autentication",
+      "time" : {
+        "start" : 1561870882791,
+        "stop" : 1561870882792,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu estou na página autentication",
+      "time" : {
+        "start" : 1561870882792,
+        "stop" : 1561870882812,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu informo no Campo Email de Login: renatojoas@email2.com",
+      "time" : {
+        "start" : 1561870882813,
+        "stop" : 1561870883098,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu informo no Campo Senha de Login: oipopo",
+      "time" : {
+        "start" : 1561870883099,
+        "stop" : 1561870883218,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Eu clico em login para entrar",
+      "time" : {
+        "start" : 1561870883218,
+        "stop" : 1561870887363,
+        "duration" : 4145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "runLogin"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Teste na funcionalidade de login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "renatojoas@email2.com"
+  }, {
+    "name" : "password",
+    "value" : "oipopo"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "runLogin" ]
+  },
+  "source" : "93d93992b78b7078.json",
+  "parameterValues" : [ "renatojoas@email2.com", "oipopo" ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Teste na funcionalidade de login",
+    "children" : [ {
+      "name" : "Efetuar Login com sucesso -- @1.1 login",
+      "uid" : "a943eeacf53827dc",
+      "parentUid" : "9769eb9835302c8748525e44e5fa2ff7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561871034437,
+        "stop" : 1561871052225,
+        "duration" : 17788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "renatojoas@email2.com", "oipopo" ]
+    } ],
+    "uid" : "9769eb9835302c8748525e44e5fa2ff7"
+  } ]
+}

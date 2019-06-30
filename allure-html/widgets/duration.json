@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a943eeacf53827dc",
+  "name" : "Efetuar Login com sucesso -- @1.1 login",
+  "time" : {
+    "start" : 1561871034437,
+    "stop" : 1561871052225,
+    "duration" : 17788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

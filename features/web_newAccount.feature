@@ -26,4 +26,4 @@
 
       Examples: login
         | nome   | sobrenome | email                 | password   | dia | mes       | ano  | endereco   | cidade | estado | pais | zipcode | telefone |
-        | Renato | Araujo    | renatojoas@email2.com | oipopo     | 6   | September | 1986 | Rua Amabai | Recife | Ohio  | United States | 51020   | 81996873479 |
+        | Renato | Araujo    | renatojoas@email21.com | oipopo     | 6   | September | 1986 | Rua Amabai | Recife | Ohio  | United States | 51020   | 81996873479 |

@@ -1,0 +1,18 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Efetuar Login com sucesso -- @1.1 login",
+    "uid" : "a943eeacf53827dc",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1561871034437,
+      "stop" : 1561871052225,
+      "duration" : 17788
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "renatojoas@email2.com", "oipopo" ]
+  } ]
+}

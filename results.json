@@ -3,128 +3,391 @@
   "elements": [
     {
       "keyword": "Scenario Outline", 
-      "location": "features/web_login.feature:15", 
+      "location": "features/web_newAccount.feature:29", 
       "name": "Efetuar Login com sucesso -- @1.1 login", 
       "status": "passed", 
       "steps": [
         {
           "keyword": "Given", 
-          "location": "features/web_login.feature:4", 
+          "location": "features/web_newAccount.feature:4", 
           "match": {
             "arguments": [], 
             "location": "features/steps/web_home_step.py:9"
           }, 
           "name": "Eu me preparo para acesso a p\u00e1gina home pela primeira vez", 
           "result": {
-            "duration": 12.564680814743042, 
+            "duration": 3.3062891960144043, 
             "status": "passed"
           }, 
           "step_type": "given"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:5", 
+          "location": "features/web_newAccount.feature:5", 
           "match": {
             "arguments": [], 
             "location": "features/steps/web_home_step.py:14"
           }, 
           "name": "Eu estou na p\u00e1gina home", 
           "result": {
-            "duration": 3.0121560096740723, 
+            "duration": 3.0074479579925537, 
             "status": "passed"
           }, 
           "step_type": "then"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:6", 
+          "location": "features/web_newAccount.feature:6", 
           "match": {
             "arguments": [], 
             "location": "features/steps/web_home_step.py:18"
           }, 
           "name": "Eu clico em login", 
           "result": {
-            "duration": 2.5941720008850098, 
+            "duration": 1.5392658710479736, 
             "status": "passed"
           }, 
           "step_type": "then"
         }, 
         {
           "keyword": "Given", 
-          "location": "features/web_login.feature:7", 
+          "location": "features/web_newAccount.feature:7", 
           "match": {
             "arguments": [], 
             "location": "features/steps/web_autentication_step.py:8"
           }, 
           "name": "Eu me preparo para acesso a p\u00e1gina de autentication", 
           "result": {
-            "duration": 0.0009000301361083984, 
+            "duration": 0.00036406517028808594, 
             "status": "passed"
           }, 
           "step_type": "given"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:8", 
+          "location": "features/web_newAccount.feature:8", 
           "match": {
             "arguments": [], 
             "location": "features/steps/web_autentication_step.py:17"
           }, 
           "name": "Eu estou na p\u00e1gina autentication", 
           "result": {
-            "duration": 0.03071117401123047, 
+            "duration": 0.013544082641601562, 
             "status": "passed"
           }, 
           "step_type": "then"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:9", 
+          "location": "features/web_newAccount.feature:9", 
           "match": {
             "arguments": [
               {
                 "name": "email", 
-                "value": "renatojoas@email2.com"
+                "value": "renatojoas@email20.com"
               }
             ], 
-            "location": "features/steps/web_autentication_step.py:21"
+            "location": "features/steps/web_autentication_step.py:33"
           }, 
-          "name": "Eu informo no Campo Email de Login: renatojoas@email2.com", 
+          "name": "Eu informo no campo Email: renatojoas@email20.com", 
           "result": {
-            "duration": 0.29164791107177734, 
+            "duration": 0.28784704208374023, 
             "status": "passed"
           }, 
           "step_type": "then"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:10", 
+          "location": "features/web_newAccount.feature:10", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:37"
+          }, 
+          "name": "Eu inicio a criacao da conta", 
+          "result": {
+            "duration": 0.08788800239562988, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:11", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:41"
+          }, 
+          "name": "Eu seleciono o genero Masculino", 
+          "result": {
+            "duration": 4.080236196517944, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:12", 
           "match": {
             "arguments": [
               {
-                "name": "senha", 
-                "value": "oipopo"
+                "name": "nome", 
+                "value": "Renato"
               }
             ], 
-            "location": "features/steps/web_autentication_step.py:25"
+            "location": "features/steps/web_autentication_step.py:45"
           }, 
-          "name": "Eu informo no Campo Senha de Login: oipopo", 
+          "name": "Eu insiro no campo Nome: Renato", 
           "result": {
-            "duration": 0.15099287033081055, 
+            "duration": 0.15888285636901855, 
             "status": "passed"
           }, 
           "step_type": "then"
         }, 
         {
           "keyword": "Then", 
-          "location": "features/web_login.feature:11", 
+          "location": "features/web_newAccount.feature:13", 
+          "match": {
+            "arguments": [
+              {
+                "name": "sobrenome", 
+                "value": "Araujo"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:49"
+          }, 
+          "name": "Eu insiro no campo Sobrenome: Araujo", 
+          "result": {
+            "duration": 0.11645293235778809, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:14", 
+          "match": {
+            "arguments": [
+              {
+                "name": "email", 
+                "value": "renatojoas@email20.com"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:53"
+          }, 
+          "name": "Eu valido no campo Email: renatojoas@email20.com", 
+          "result": {
+            "duration": 0.031215190887451172, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:15", 
+          "match": {
+            "arguments": [
+              {
+                "name": "password", 
+                "value": "oipopo"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:57"
+          }, 
+          "name": "Eu insiro no campo Password: oipopo", 
+          "result": {
+            "duration": 0.12135887145996094, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:16", 
+          "match": {
+            "arguments": [
+              {
+                "name": "dia", 
+                "value": "6"
+              }, 
+              {
+                "name": "mes", 
+                "value": "September"
+              }, 
+              {
+                "name": "ano", 
+                "value": "1986"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:61"
+          }, 
+          "name": "Eu insiro nas datas o DD/MM/AA: 6 / September / 1986", 
+          "result": {
+            "duration": 0.291409969329834, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:17", 
+          "match": {
+            "arguments": [
+              {
+                "name": "nome", 
+                "value": "Renato"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:65"
+          }, 
+          "name": "Eu valido no campo Nome: Renato", 
+          "result": {
+            "duration": 0.026289939880371094, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:18", 
+          "match": {
+            "arguments": [
+              {
+                "name": "sobrenome", 
+                "value": "Araujo"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:69"
+          }, 
+          "name": "Eu valido no campo Sobrenome: Araujo", 
+          "result": {
+            "duration": 0.028250932693481445, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:19", 
+          "match": {
+            "arguments": [
+              {
+                "name": "endereco", 
+                "value": "Rua Amabai"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:73"
+          }, 
+          "name": "Eu insiro no campo Endereco: Rua Amabai", 
+          "result": {
+            "duration": 0.15162205696105957, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:20", 
+          "match": {
+            "arguments": [
+              {
+                "name": "cidade", 
+                "value": "Recife"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:77"
+          }, 
+          "name": "Eu insiro no campo Cidade: Recife", 
+          "result": {
+            "duration": 0.12352514266967773, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:21", 
+          "match": {
+            "arguments": [
+              {
+                "name": "state", 
+                "value": "Ohio"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:81"
+          }, 
+          "name": "Eu insiro no campo Estado: Ohio", 
+          "result": {
+            "duration": 0.11534714698791504, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:22", 
+          "match": {
+            "arguments": [
+              {
+                "name": "zipcode", 
+                "value": "51020"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:85"
+          }, 
+          "name": "Eu insiro no campo Zipcode: 51020", 
+          "result": {
+            "duration": 0.11582088470458984, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:23", 
+          "match": {
+            "arguments": [
+              {
+                "name": "pais", 
+                "value": "United States"
+              }, 
+              {
+                "name": "telefone", 
+                "value": "81996873479"
+              }
+            ], 
+            "location": "features/steps/web_autentication_step.py:89"
+          }, 
+          "name": "Eu defino no campo Pais: United States, Telefone: 81996873479 e Futuro endereco", 
+          "result": {
+            "duration": 0.4397110939025879, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:24", 
           "match": {
             "arguments": [], 
-            "location": "features/steps/web_autentication_step.py:29"
+            "location": "features/steps/web_autentication_step.py:95"
           }, 
-          "name": "Eu clico em login para entrar", 
+          "name": "Eu insiro dados no campo Outros", 
           "result": {
-            "duration": 4.734864950180054, 
+            "duration": 0.15694713592529297, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features/web_newAccount.feature:25", 
+          "match": {
+            "arguments": [], 
+            "location": "features/steps/web_autentication_step.py:99"
+          }, 
+          "name": "Eu concluo o cadastro", 
+          "result": {
+            "duration": 5.404962778091431, 
             "status": "passed"
           }, 
           "step_type": "then"
@@ -135,11 +398,11 @@
     }
   ], 
   "keyword": "Feature", 
-  "location": "features/web_login.feature:2", 
+  "location": "features/web_newAccount.feature:2", 
   "name": "Teste na funcionalidade de login", 
   "status": "passed", 
   "tags": [
-    "runLogin"
+    "runNewAccount"
   ]
 }
 ]

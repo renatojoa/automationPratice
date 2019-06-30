@@ -1,0 +1,44 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Efetuar Login com sucesso -- @1.1 login",
+    "uid" : "93d93992b78b7078",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1561870872124,
+      "stop" : 1561870890064,
+      "duration" : 17940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "renatojoas@email2.com", "oipopo" ]
+  }, {
+    "name" : "Efetuar Login com sucesso -- @1.1 login",
+    "uid" : "92d1d801e0f5caf9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1561870747284,
+      "stop" : 1561870765712,
+      "duration" : 18428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "renatojoas@email2.com", "oipopo" ]
+  }, {
+    "name" : "Efetuar Login com sucesso -- @1.1 login",
+    "uid" : "a943eeacf53827dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1561871034437,
+      "stop" : 1561871052225,
+      "duration" : 17788
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "renatojoas@email2.com", "oipopo" ]
+  } ]
+}

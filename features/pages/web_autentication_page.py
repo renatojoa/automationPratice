@@ -15,7 +15,6 @@ class WebAutenticationPage(BasePage):
     btnLogin = (By.ID, 'SubmitLogin')
     txtError = (By.ID, '//*[@id="center_column"]/div[1]/ol/li')
     txtErrorEmailInvalid = (By.ID, '//*[@id="center_column"]/div[1]/ol/li//*[@id="center_column"]/div[1]/ol/li')
-    
 
     #PERSONAL INFORMATION
     rdioGender = (By.ID, 'uniform-id_gender1')
